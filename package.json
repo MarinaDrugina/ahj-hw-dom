@@ -163,6 +163,7 @@
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint . --fix",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   }
 }
